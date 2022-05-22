@@ -12,7 +12,6 @@
         {{-- <input type="submit" name="halokirim" onclick="munculno()"> --}}
         <input name="jawab" id="jawab">
     </body>
-    
     <script>
         function munculno() {
             var teks = document.getElementById('halo').value;
