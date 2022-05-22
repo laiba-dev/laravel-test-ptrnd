@@ -8,7 +8,7 @@
     </head>
     
     <body>
-        <input type="text" name="halo" id="halo" placeholder="halo">
+        {{-- <input type="text" name="halo" id="halo" placeholder="halo"> --}}
         <input type="submit" name="halokirim" onclick="munculno()">
         <input name="jawab" id="jawab">
     </body>
