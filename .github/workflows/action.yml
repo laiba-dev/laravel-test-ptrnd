@@ -40,6 +40,7 @@ jobs:
 #     - name: Show Log File
 #       uses: laiba-dev/laravel-autograding@v1.4
     - name: Upload Artifact
+      if: always()
       uses: actions/upload-artifact@v3
       with:
         name: testinglog
